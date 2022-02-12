@@ -1,20 +1,25 @@
 ﻿using System;
-using DataStructure_Algorithms_Problems.Algorithms;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructure_Algorithms_Problems
+namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to DataStructure and Algorithms Practice Problems");
+            Console.WriteLine("welcome to basic core programs");
+            Fibonacci headTailcs = new Fibonacci();
 
-            FindYourNum.FindYourNumber();
+
+
+            headTailcs.Evenodd(11);
+
+
             Console.ReadLine();
+
         }
     }
 }

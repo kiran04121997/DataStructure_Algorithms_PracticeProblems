@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3384B306-DFE1-4DAF-A955-558E47012340}</ProjectGuid>
+    <ProjectGuid>{E2708E5A-C1A0-4015-B8E0-5C411D35E45E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DataStructure_Algorithms_Problems</RootNamespace>
-    <AssemblyName>DataStructure_Algorithms_Problems</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\FindYourNum.cs" />
+    <Compile Include="HeadTail.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
